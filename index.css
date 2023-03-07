@@ -27,7 +27,7 @@ button:hover{
 /* estilado clase container */
 .container{
         
-    margin: auto;
+    margin: 0;
 }
 /* estilado header */
 header{
@@ -92,16 +92,17 @@ header a:hover{
     margin: 0;
     padding: 170px 100px;
 }
-/* estilado de la segunda seccion #msmaderas */
-.msmaderas{
-    text-align: center;
+/* estilado de la segunda seccion #msmaderas*/
+
+.somosmsboot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
 }
 
-.msmaderas img{
-    width: 50%;
-    display: inline;
-    margin: 0px 20px;
-}
 
 /* estilado de la tercera seccion #catalogo */
 .catalogo .productos{
