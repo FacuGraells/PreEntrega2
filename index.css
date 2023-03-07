@@ -27,7 +27,7 @@ button:hover{
 /* estilado clase container */
 .container{
         
-    margin: auto;
+    margin: 0;
 }
 /* estilado header */
 header{
@@ -123,6 +123,8 @@ header a:hover{
 
 .medio-ambiente h2{
     text-align: center;
+    margin-top: 10px;
+
 }
 
 .medio-ambiente .container button{
@@ -132,6 +134,10 @@ header a:hover{
 }
 
 .medio-ambiente ul{
+    display: flex;
+    flex-direction: column;
+    
+    
     font-size: 1.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: circle;
@@ -140,8 +146,8 @@ header a:hover{
 
 .medio-ambiente img{
     margin-top: 20px;
-    width: 2000px;
-    height: 550px;;
+    width: 1900px;
+    height: 500px;;
     
 }
 /* estilado de la quinta seccion #contactos */
