@@ -4,12 +4,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /* inicio titulos */
-h1{font-size: 3.2em;}
+h1{font-size: 3.2em;
+font-weight: bold;
+}
 h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.5em;}
-/* estilado de botones 
-button{
+/* estilado de botones */
+.botoninicio{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 25px;
@@ -20,10 +22,10 @@ button{
     background-color: rgb(43, 42, 42)
 }
 
-button:hover{
+.botoninicio:hover{
     background-color: rgb(0, 0, 0)
 
-}*/
+}
 
 /* estilado clase container */
 .container{
